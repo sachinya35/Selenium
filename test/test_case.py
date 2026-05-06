@@ -12,4 +12,4 @@ def test_login(driver,username,password):
     logger.info("Starting TestCase now")
     login.websites(url="https://saucedemo.com")
     login.login(username,password,want="https://www.saucedemo.com/inventory.html")
-    logger.info("test Passes Successfully")
+    logger.info("test Passes")
